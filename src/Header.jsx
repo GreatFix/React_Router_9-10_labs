@@ -19,14 +19,14 @@ class Header extends Component {
         <Link className="nav-item border" to="/">
           Main
         </Link>
+        <Link className="nav-item border" to="/profile">
+          Profile
+        </Link>
         {!localStorage.getItem("login") && (
           <Link className="nav-item border" to="/sign-in">
             Sign-in
           </Link>
-        )}
-        <Link className="nav-item border" to="/profile">
-          Profile
-        </Link>
+        )}   
         {localStorage.getItem("login") && (
           <button
             className="nav-item bg-danger text-white"
