@@ -17,7 +17,7 @@ class Header extends Component {
     return (
       <nav className="nav nav-pills nav-fill ">
         <Link className="nav-item border" to="/">
-          Main
+          Main проверка
         </Link>
         <Link className="nav-item border" to="/profile">
           Profile
